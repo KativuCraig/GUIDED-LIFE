@@ -1,0 +1,92 @@
+body { 
+    height: 100vh;
+    margin: 0;
+    background-color: #c8c8c8;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+}
+
+header h1 {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    
+}
+
+.container {
+    margin-left: 300px;
+    border-radius: 5px;
+    width: 72%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+ .Policy {
+margin-left: 50%;
+    margin-top: 10px;
+    font-size: 24px;
+    color:#333;
+    margin-bottom: 20px;
+    background: #c2e6f5;
+    border-radius: 5px;
+    width: 260px;
+   
+    
+}
+
+.container input, .container select {
+    width: 98%;
+    padding: 5px;
+}
+
+.grid {
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid1, .grid2, .grid3, .grid4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.radiobuttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.Button {
+    border-radius: 5px;
+    background-color: #2353cb; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 15% !important;
+}
+
+.Button:hover {
+    background-color: #1d45a9;
+}
+
+input:focus, select:focus {
+    outline: none;
+}

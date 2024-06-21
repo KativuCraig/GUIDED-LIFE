@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8c8c8;
+}
+
+.message{
+    background: #fff;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+.choose{
+    position: relative;
+    top: 10px;
+}
+.emailbtn{
+    border-radius: 5px;
+    background-color: #2353cb;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition-duration: 0.4s ;
+
+}
+.emailbtn:hover{
+    background-color: #1d45a9;
+}
+
+#email{
+    position: relative;
+    top: 50%;
+    left: -15%;
+}
+
+#phone{
+    position: relative;
+    top: 50%;
+    left: 15%;
+}
